@@ -10,7 +10,7 @@ export const useMeteoriteData = () => {
       try {
         setLoading(true);
 
-        const response = await fetch("./public/meteoritedata.json");
+        const response = await fetch("/meteoritedata.json");
     
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
