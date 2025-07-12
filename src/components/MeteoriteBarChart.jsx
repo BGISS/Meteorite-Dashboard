@@ -28,7 +28,7 @@ function MeteoriteBarChart({data,id,t}){
                     dataKey = "year"
                     textAnchor="end"
                     height={60}
-                    interval={0}
+                    interval={1}
                     angle={-45}
                     />
                     <YAxis/>
