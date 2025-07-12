@@ -1,0 +1,25 @@
+#landing-page{
+    background-color: black;
+    font-family: 'Inconsolata';
+    font-size: 1.6rem;
+    font-weight: 200;
+    display: flex;
+    flex: row;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    
+}
+#landing-page span, #landing-page a{
+    color: #89B9C1;
+}
+#landing-page a{
+  text-decoration: none;
+}
+#landing-page a:hover{
+  text-decoration: underline;
+}
+#landing-page p{
+    margin-top: 30vh;
+    z-index: 2;
+}

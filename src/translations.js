@@ -1,0 +1,52 @@
+const translations = {
+  en: {
+    footerText: "Meteorite Dashboard. All rights reserved.",
+    toggleLanguage: "Français",
+    landingPageView: "View",
+    landingPageEarth:"Earth",
+    landingPageRest:"like never before. In this interactive dashboard, you'll learn more about meteorite landings. All the data here was imported from ",
+    lineChartTitle: "Meteorite Mass Over time from 1900-2012",
+    lineChartLegend: "Total mass of meteorite for that year in kg",
+    timelineFilter: "Timeline Filters",
+    yearFilterLabel: "Year Period (20-year gaps)",
+    massFilterLabel: "Sort by Mass",
+    noSorting:"No sorting",
+    lightHeavy: 'Lightest to Heaviest',
+    heavyLight: "Heaviest to Lightest",
+    barChartTitle: "Most common type of meteorite found",
+    barChartLegend: "Number of Meteorites",
+    barChartFilter: "Type Chart Filters",
+    meteoriteFilterLabel: "Meteorite Type",
+    allTypes: "All Types",
+    year: "Year",
+    count:"Count"
+  },
+  fr: {
+    timelineChartTitle: "Chronologie des météorites",
+    barChartTitle: "Types de météorites les plus fréquents",
+    filters: "Filtres",
+    footerText: "Tableau de bord des météorites. Tous droits réservés.",
+    toggleLanguage: "English",
+    landingPageView: "Découvrez",
+    landingPageEarth: "la Terre",
+    landingPageRest: "comme jamais auparavant. Ce tableau de bord interactif vous en apprendra davantage sur les atterrissages de météorites. Toutes les données ici ont été importées de ",
+    lineChartTitle: "Masse des météorites au fil du temps de 1900 à 2012",
+    lineChartLegend: "Masse totale de la météorite pour cette année en kg",
+    timelineFilter: "Filtres de chronologie",
+    yearFilterLabel: "Période annuelle (écarts de 20 ans)",
+    massFilterLabel: "Trier par masse",
+    noSorting:"Pas de tri",
+    lightHeavy: 'Du plus léger au plus lourd',
+    heavyLight: "Du plus lourd au plus léger",
+    barChartTitle: "Le type de météorite le plus courant trouvé",
+    barChartLegend: "Nombre de météorites",
+    barChartFlter: "Filtres de graphique de type",
+    meteoriteFilterLabel: "Type de météorite",
+    allTypes: "Tous types",
+    year: "Année",
+    count:"Nombre"
+
+  },
+};
+
+export default translations;
